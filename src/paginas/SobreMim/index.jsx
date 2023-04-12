@@ -4,7 +4,7 @@ import React from 'react'
 import styles from './SobreMim.module.css';
 
 import fotoCapa from 'assets/sobre_mim_capa.png'
-import fotoSobreMim from 'assets/sobre_mim_foto.png'
+import minhaFoto from 'assets/minha_foto.png'
 
 
 export default function SobreMim() {
@@ -13,20 +13,20 @@ export default function SobreMim() {
       fotoCapa={fotoCapa}
       titulo="Sobre mim"
     >
-      <h3 className={styles.subtitulo}>Olá, eu sou Antonio</h3>
+      <h3 className={styles.subtitulo}>Olá, eu sou Vitor</h3>
 
       <img
-        src={fotoSobreMim}
+        src={minhaFoto}
         alt="Foto do antonio Evaldo sorrindo"
         className={styles.fotoSobreMim}
       />
       
-      <p className={styles.paragrafo}>Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te ver por aqui.</p>
-      <p className={styles.paragrafo}>Minha história com programação começou no Instituto Federal do Piauí (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu aprendi lógica de programação e o básico de várias linguagens, como PHP, Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava muito de estudar programação, mas na época não fazia ideia de que trabalharia com isso hoje.</p>
-      <p className={styles.paragrafo}>No ensino superior, escolhi cursar Engenharia Elétrica na Universidade Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de Educação Tutorial), um grupo acadêmico que contribui de diversas formas para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web para ser um dos mantenedores do site deles. </p>
-      <p className={styles.paragrafo}>Com isso tive minha experiência de dev mais próxima da realidade, com prazos de implementação para o site, e aprendi muito enquanto codificava.</p>
-      <p className={styles.paragrafo}>E foi enquanto eu estava no PET que decidi procurar um estágio em desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e percebi que ela aliava duas paixões minhas: programação e educação. Para minha felicidade, fui escolhido para fazer parte do time.</p>
-      <p className={styles.paragrafo}>Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!</p>
+      <p className={styles.paragrafo}>Oi, tudo bem? Eu sou estudante/desenvolvedor Front-end e estou feliz em te ver por aqui.</p>
+      <p className={styles.paragrafo}>Minha história com programação começou por mais ou menos em 2017 durante o ensino médio quando tive meu primeiro contato com visua basic e aprendi sobre a lógica de programação. </p>
+      <p className={styles.paragrafo}>Depois, quando entrei para a Universidade de Mogi das Cruzes em 2019 no curso de Sistemas de Informação, comecei a estudar C# e essa foi a única linguagem de programação que estudei até o final do meu curso em 2022. Inclusive, foi a linguagem que usei para desenvolver meu TCC, um sistema de frente de caixa de autoatendimento.</p>
+      <p className={styles.paragrafo}>Quando sai da faculdade percebi que durante todo aquele tempo eu não tinha aprendido nada sobre devolvimento web. Nada além de algumas tag mais simples que eu nem sabia o significado, então parei de estudar back-end e fui para o front-end. 
+      Comecei com alguns vídeos de HTML e CSS e depois encontrei alguns cursos pela internet onde comecei a estudar JavaScript. Agora estudo através da Alura onde já fiz cursos de HTML, CSS, JavaScript, React e até mesmo alguns sobre UX Design (não é pra mim...) e ao mesmo tempo me para o mercado de trabalho como desenvolvedor Front-end</p>
+      <p className={styles.paragrafo}>Ainda não tive a oportunidade de desenvolver fazendo parte de um time, colaborando em projetos para alguma empresa, mas estou me preparando para isso!</p>
     </PostModelo>
   )
 }
