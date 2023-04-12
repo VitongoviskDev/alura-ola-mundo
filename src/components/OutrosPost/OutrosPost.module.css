@@ -1,0 +1,9 @@
+.outrosPosts{
+    padding: 0 6vw 3.625rem;
+}
+.outrosPosts__titulo{
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+    margin-top: 4.875rem;
+    margin-bottom: 2rem;
+}

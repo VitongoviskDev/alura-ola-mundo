@@ -1,0 +1,15 @@
+.link {
+    padding: .5em 2em;
+
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--cor-fonte-principal);
+    transition: all ease-in-out 2.s;
+}
+
+.link__destacado{
+    background-color: var( --azul-escuro);
+    border-radius: .25em;
+
+    color: var(--branco);
+}
