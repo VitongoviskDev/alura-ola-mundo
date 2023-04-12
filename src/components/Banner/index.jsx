@@ -10,7 +10,7 @@ export default function Banner() {
     <div className={styles.banner}>
         <div className={styles.apresentacao}>
             <h1 className={styles.tiutlo}>Olá, Mundo!</h1>
-            <p className={styles.paragrafo}>Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)</p>
+            <p className={styles.paragrafo}>Boas vindas ao meu espaço pessoal! Eu sou Vitor Campos, estudante/desenvolvedor Front-end. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)</p>
         </div>
         <div className={styles.imagens}>
             <img 
@@ -28,3 +28,4 @@ export default function Banner() {
     </div>
   )
 }
+
